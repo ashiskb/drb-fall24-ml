@@ -1,5 +1,18 @@
 # Workspace for Fall 2024 Machine Learning course
 
+## Week 3 (9/3, 9/5)
+1. Please revisit the week-2 activities. i) Make sure you can follow the complete workflow, from the data loading to model evaluation. ii) Also, evaluate the model in terms of RMSE and R2-score, and MAE, MSE. iii) Inspect the model internals. iv) pick one sample from the test set, and estimate MPG. How bad was it? v) Let's try again to build another regression model!
+2. A classification task for you: Get the dataset first: go to [this link at https://www.muratkoklu.com/datasets/](https://www.muratkoklu.com/datasets/), and download the `Date Fruit Datasets`. You will get the `Date Fruit Datasets.zip`. Unzip it to get the `Date Fruit Datasets.xlsx` file among other files. We will be working on the `xlsx` file today.
+3. Load the dataset and tell i) How many samples are there in the dataset? ii) how many features are there per sample, excluding the class/type label? iii) Print the number of unique classes (i.e., fruit types), list the class names, and their frequency distribution.
+4. List mean, stdev, min, max of each of the features in the dataset
+5. Shuffle the data samples.
+6. Split the dataset into training (80%) and test (20%)
+7. Scale all independent features.
+8. Build a classifier with the training set.
+9. Predict class label of just one sample picked from the test set.
+10. Evaluate the model performance based on the test set.
+11. Can you do **better**? Here, **better** is a very subjective term :(
+
 ## Week 2 (8/27, 8/29)
 1. Get the dataset: i) Go to [https://www.fueleconomy.gov](https://www.fueleconomy.gov), ii) Scroll down the page to find link to “Download EPA’s MPG Ratings” and click on it. iii) Locate the section titled Datasets for All Model Years (1984–2025)., iv) Click on Zipped CSV File to download the dataset. How many samples are there in the dataset? Also, how many features are there per sample
 2. Let’s filter the dataset. We are interested only with vehicle’s engine displacement (`displ`), model year (`year`), unadjusted mpg on highway (`UHighway`), unadjusted mpg on city (`UCity`) and the fuel type (`fuelType`). Create a dataframe that contains the filtered dataset.
