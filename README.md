@@ -1,6 +1,6 @@
 # Workspace for Fall 2024 Machine Learning course
 
-## Week 4 (9/10, 9/12)1
+## Week 4 (9/10, 9/12)
 1. Did you finish all the week-3 tasks?
 2. Visualize regression lines on the fuel-economy dataset.
 3. For the regression task: How to compute `MAE`, `MSE`, `RMSE`, `R2-score`, `Adjusted R2-score` from scratch? What actually are these? Did you get the intuition why these are for?
