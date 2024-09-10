@@ -1,5 +1,17 @@
 # Workspace for Fall 2024 Machine Learning course
 
+## Week 4 (9/10, 9/12)1
+1. Did you finish all the week-3 tasks?
+2. Visualize regression lines on the fuel-economy dataset.
+3. For the regression task: How to compute `MAE`, `MSE`, `RMSE`, `R2-score`, `Adjusted R2-score` from scratch? What actually are these? Did you get the intuition why these are for?
+4. For the classification task given in week-3:
+   * Is that a binary classification problem?
+   * How do you evaluate the model, if you are successful in the training?
+5. Can you explain the importance of scaling all the independent features? What is the workflow adopted during the scaling step?
+   * How many different types of scaling do you know? Any personal favorites?
+6. How about the train/test splits? What do we do that? What should be the ideal split size? Why do we not train with all data samples?
+7. What if there are categorical features present in the dataset, should we get rid of those before scaling/training? What if all my features are categorical?
+
 ## Week 3 (9/3, 9/5)
 1. Please revisit the week-2 activities. i) Make sure you can follow the complete workflow, from the data loading to model evaluation. ii) Also, evaluate the model in terms of RMSE and R2-score, and MAE, MSE. iii) Inspect the model internals. iv) pick one sample from the test set, and estimate MPG. How bad was it? v) Let's try again to build another regression model!
 2. A classification task for you: Get the dataset first: go to [this link at https://www.muratkoklu.com/datasets/](https://www.muratkoklu.com/datasets/), and download the `Date Fruit Datasets`. You will get the `Date Fruit Datasets.zip`. Unzip it to get the `Date Fruit Datasets.xlsx` file among other files. We will be working on the `xlsx` file today.
