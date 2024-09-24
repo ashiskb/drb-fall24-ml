@@ -1,5 +1,10 @@
 # Workspace for Fall 2024 Machine Learning course
 
+## Week 6 (9/24, 9/26)
+1. Make sure you finish all tasks from week 5?
+2. **Task 6**: Piggybacking on Task 4 where scikit-learn library usage is allowed: solve using [scikit-learn Pipeline](https://scikit-learn.org/stable/modules/generated/sklearn.pipeline.Pipeline.html) and train the Pipeline with `dataset/w5-multi-regression-trainset.xlsx` and evaluate the pipeline with `dataset/w5-multi-regression-testset.xlsx` in terms of RMSE and R2-score.
+3. **Task 7**: Repeat task 6 with the `scikit-learn Pipeline` but use one of your custom regressor for the method from task 5.
+
 ## Week 5 (9/17, 9/19)
 1. Draw a linear regression line through the dataset `dataset/w5-simple-regression-trainset.xlsx`. Please note: the excel file contains data only in `Sheet1`. **Using Scikit-learn library allowed.**
 2. Draw polynomial regression lines of degree 2, 3, 4, 5, 6, 7, 8, 9, 10, 20, 50, 100 through the dataset. Evaluate each of the models (including the model in #1) on the test set `dataset/w5-simple-testset.xlsx` in terms of RMSE and R2-score. Comments? **Using scikit-learn library allowed.**
