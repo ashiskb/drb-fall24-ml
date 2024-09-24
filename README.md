@@ -4,6 +4,9 @@
 1. Make sure you finish all tasks from week 5?
 2. **Task 6**: Piggybacking on Task 4 where scikit-learn library usage is allowed: solve using [scikit-learn Pipeline](https://scikit-learn.org/stable/modules/generated/sklearn.pipeline.Pipeline.html) and train the Pipeline with `dataset/w5-multi-regression-trainset.xlsx` and evaluate the pipeline with `dataset/w5-multi-regression-testset.xlsx` in terms of RMSE and R2-score.
 3. **Task 7**: Repeat task 6 with the `scikit-learn Pipeline` but use one of your custom regressor for the method from task 5.
+4. **Task 8**: Plot $y=f(x) = x^2-5x+5$, Optimize (i.e., minimize) the function: solve $x$ such that $y$ has the minimum value.
+5. **Task 9**: Repeat task 8 with $y = f(x) = -x^2+4x+3$.
+6. **task 10**: Repeat task 8 with $y = f(x) = x log x$
 
 ## Week 5 (9/17, 9/19)
 1. Draw a linear regression line through the dataset `dataset/w5-simple-regression-trainset.xlsx`. Please note: the excel file contains data only in `Sheet1`. **Using Scikit-learn library allowed.**
