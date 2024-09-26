@@ -7,7 +7,7 @@
 4. **Task 8**: Plot $y=f(x) = x^2-5x+5$, Optimize (i.e., minimize) the function: solve $x$ such that $y$ has the minimum value. Test if the solution changes if $y$ is halved; i.e., $y = \dfrac{1}{2}(x^2-5x+5)$.
 5. **Task 9**: Repeat task 8 with $y = f(x) = -x^2+4x+3$. Also, check if the solution changes if $y$ is doubled, i.e., $y = 2(-x^2+4x+3) = -2x^2+8x+6$.
 6. **task 10**: Repeat task 8 with $y = f(x) = x log x$. Also, check if the solution changes if $y$ is negated, i.e., $y = -x\log x$.
-7. **Task 11**: Given $A = \begin{bmatrix}3 & 0 & 2\\2 & 0 & -2\\0 & 1 & 1\end{bmatrix}$. i) compute its inverse, i.e., $A^{-1}$. ii) Check if $AA^{-1} = A^{-1}A = I$. ii) compute its trace, i.e., $\text{tr}(A)$.
+7. **Task 11**: Given $$ A = \begin{bmatrix}3 & 0 & 2\\2 & 0 & -2\\0 & 1 & 1\end{bmatrix} $$. i) compute its inverse, i.e., $A^{-1}$. ii) Check if $AA^{-1} = A^{-1}A = I$. ii) compute its trace, i.e., $\text{tr}(A)$.
 8. **Task 12**: Given $P = \begin{bmatrix}3 & 0 & 2\end{bmatrix}$, and $Q = \begin{bmatrix}1 & 2 & 3 & 4\\5 & 6 & 7 & 8\\9 & 10 & 11 & 12\end{bmatrix}$, and $R = \begin{bmatrix}2 & 1\\1 & -3 \\4 & 1\\1 & -5\end{bmatrix}$, and $S = \begin{bmatrix}1\\2\end{bmatrix}$,  i) compute $PQRS$, ii) compute $\text{tr}(PQRS)$, iii) check if $\text{tr}(PQRS) = \text{tr}(QRSP) = \text{tr}(RSPQ) = \text{tr}(SPQR)$
 
 9. **Task 13**: Given $A = \begin{bmatrix}1 & 2 & 3\\4 & 5 & 6\\7&8&9\end{bmatrix}$, $B = \begin{bmatrix}10 & 11 & 12\\13 & 14 & 15\\16&17&18\end{bmatrix}$, and $C = \begin{bmatrix}19 & 20 & 21\\22 & 23 & 24\\25 & 26 & 27\end{bmatrix}$, 
