@@ -5,9 +5,9 @@
 2. **Task 6**: Piggybacking on Task 4 where scikit-learn library usage is allowed: solve using [scikit-learn Pipeline](https://scikit-learn.org/stable/modules/generated/sklearn.pipeline.Pipeline.html) and train the Pipeline with `dataset/w5-multi-regression-trainset.xlsx` and evaluate the pipeline with `dataset/w5-multi-regression-testset.xlsx` in terms of RMSE and R2-score.
 3. **Task 7**: Repeat task 6 with the `scikit-learn Pipeline` but use one of your custom regressor for the method from task 5.
 4. **Task 8**: Plot $y=f(x) = x^2-5x+5$, Optimize (i.e., minimize) the function: solve $x$ such that $y$ has the minimum value. Test if the solution changes if $y$ is halved; i.e., $y = \dfrac{1}{2}(x^2-5x+5)$.
-5. **Task 9**: Repeat task 8 with $y = f(x) = -x^2+4x+3$. Also, check if the solution changes if $y$ is doubled, i.e., $y = 2(-x^2+4x+3) = -2x^2+8x+6$.
-6. **task 10**: Repeat task 8 with $y = f(x) = x log x$. Also, check if the solution changes if $y$ is negated, i.e., $y = -x\log x$.
-7. **Task 11**: Given --
+5. **Task 9**: Repeat task 8 with $y = f(x) = -x^2+4x+3$. i) check if the solution changes if $y$ is doubled, i.e., $y = 2(-x^2+4x+3) = -2x^2+8x+6$. ii) *Check if the solution changes if $y$ is incremented by 1*, iii) *Check if the solution changes if $y$ is decremented by 20*.
+6. **Task 10**: Repeat task 8 with $y = f(x) = x log x$. Check if the solution changes if $y$ is negated, i.e., $y = -x\log x$. 
+8. **Task 11**: Given --
 ```math
 A = \begin{bmatrix}3 & 0 & 2\\2 & 0 & -2\\0 & 1 & 1\end{bmatrix}
 ```
