@@ -24,7 +24,7 @@ P = \begin{bmatrix}3 & 0 & 2\end{bmatrix}, Q = \begin{bmatrix}1 & 2 & 3 & 4\\5 &
 
 11. **Task 13**: Given --
 ```math
-A = \begin{bmatrix}1 & 2 & 3\\4 & 5 & 6\\7&8&9\end{bmatrix}, $B = \begin{bmatrix}10 & 11 & 12\\13 & 14 & 15\\16&17&18\end{bmatrix}, and C = \begin{bmatrix}19 & 20 & 21\\22 & 23 & 24\\25 & 26 & 27\end{bmatrix}
+A = \begin{bmatrix}1 & 2 & 3\\4 & 5 & 6\\7&8&9\end{bmatrix}, B = \begin{bmatrix}10 & 11 & 12\\13 & 14 & 15\\16&17&18\end{bmatrix}, C = \begin{bmatrix}19 & 20 & 21\\22 & 23 & 24\\25 & 26 & 27\end{bmatrix}
 ```
 * i) compute $\text{tr}(A+B+C)$,
 * ii) check if true: $\text{tr}(A+B+C) = tr(A) + tr(B) + tr(C)$,
