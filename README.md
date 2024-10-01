@@ -1,5 +1,10 @@
 # Workspace for Fall 2024 Machine Learning course
 
+## Week 7 (9/30, 10/3)
+1. Create an account at [Kaggle.com](https://www.kaggle.com).
+2. Checkout and finish all 7 parts of a course at [https://www.kaggle.com/learn/intro-to-machine-learning]
+3. Also, don't forget to review your `week-6 activities`. If you have questions/doubts, please reach out early.
+
 ## Week 6 (9/24, 9/26)
 1. Make sure you finish all tasks from week 5?
 2. **Task 6**: Piggybacking on Task 4 where scikit-learn library usage is allowed: solve using [scikit-learn Pipeline](https://scikit-learn.org/stable/modules/generated/sklearn.pipeline.Pipeline.html) and train the Pipeline with `dataset/w5-multi-regression-trainset.xlsx` and evaluate the pipeline with `dataset/w5-multi-regression-testset.xlsx` in terms of RMSE and R2-score.
