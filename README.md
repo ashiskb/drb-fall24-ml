@@ -1,5 +1,11 @@
 # Workspace for Fall 2024 Machine Learning course
 
+## Week 8 (10/8, 10/10)
+1. Build logistic regression model (**without using scikit-learn**) to predict the rightmost column/feature of `dataset/ionosphere.data.csv` based on remaining features. Please note: it's a binary classification task. Try i) batch gradient descent, ii) stochastic gradient descent, and iii) mini-batch gradient descent algorithms. Comment on the performances based on learning rate, batch size, etc. Show binary classification model performance in terms of Accuracy, Precision, Recall, F1-score, ROC (with AUC).
+2. Repeat task 1 on `dataset/pima-indians-diabetes.csv` dataset.
+3. Can you build a multi-class classification model only with binary classifier(s) (e.g., logistic regression) for a multi-class classification dataset (i.e., predicting last column), `dataset/seeds_dataset.csv`. Please note: **scikit-learn still not allowed for this task**? Report multi-class classification model performance in terms of per-class accuracy, precision, recall and F1-score, and 
+4. Repeat task 3 on `dataset/iris.data.csv`.
+
 ## Week 7 (9/30, 10/3)
 1. Create an account at [Kaggle.com](https://www.kaggle.com).
 2. Checkout and finish all 7 parts of a course at [https://www.kaggle.com/learn/intro-to-machine-learning]
