@@ -5,6 +5,8 @@
 2. Repeat task 1 on `dataset/pima-indians-diabetes.csv` dataset.
 3. Can you build a multi-class classification model only with binary classifier(s) (e.g., logistic regression) for a multi-class classification dataset (i.e., predicting last column), `dataset/seeds_dataset.csv`. Please note: **scikit-learn still not allowed for this task**? Report multi-class classification model performance in terms of per-class accuracy, precision, recall and F1-score, and 
 4. Repeat task 3 on `dataset/iris.data.csv`.
+6. (**Multi-label classification task**): Please checkout the `dataset/CHD_49_multi-label.xlsx` dataset (sheet: `1`) containing 555 heart-disease cases of 49 symptoms (as input features). Each case is annotated with 6 target labels (+1/-1). Please solve this multi-label classification task, and report Hamming loss, average precision,  average recall, average f1, and average accuracy.
+7. (**How about both? i.e., multi-output classification task**): Please checkout [this dataset of Acoustic features](https://archive.ics.uci.edu/dataset/406/anuran+calls+mfccs) extracted from syllables of anuran (frogs) calls, including the family, the genus, and the species labels (multilabel). 
 
 ## Week 7 (9/30, 10/3)
 1. Create an account at [Kaggle.com](https://www.kaggle.com).
