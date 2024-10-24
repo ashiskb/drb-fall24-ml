@@ -1,4 +1,14 @@
 # Workspace for Fall 2024 Machine Learning course
+## Week 10 (10/22, 10/24)
+1. Let's read data samples from `week-10/datasets/Clustering-Datasets-master/02. Synthetic/3MC.csv`. There are 400 two-dimensional (i.e., the dimension being `x` and `y`) samples in the csv.
+2. Split the datset into training and test (80%/20% split)
+3. Use the training set to find 3 clusters of the dataset. **PLEASE DO NOT USE scikit-learn based clustering libraries**. Write your own k-means method implementation.
+4. Evaluate clustering performances in task #3 based on SSE, RandIndex, Silhouette Coefficient.
+5. If you increase number of clusters in task #3 what type of performance changes do you observe? Please use the elbow technique to determine best number of clustering for the dataset.
+6. Just think about implementing hierarchical clustering, producing a dendrogram and apply a cut to obtain the desired number of clusters. 
+
+## Week 9 (10/15, 10/17)
+1. Midterm (!) -- it's a major activity, right?
 
 ## Week 8 (10/8, 10/10)
 1. Build logistic regression model (**without using scikit-learn**) to predict the rightmost column/feature of `dataset/ionosphere.data.csv` based on remaining features. Please note: it's a binary classification task. Try i) batch gradient descent, ii) stochastic gradient descent, and iii) mini-batch gradient descent algorithms. Comment on the performances based on learning rate, batch size, etc. Show binary classification model performance in terms of Accuracy, Precision, Recall, F1-score, ROC (with AUC).
