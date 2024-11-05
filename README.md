@@ -1,4 +1,7 @@
 # Workspace for Fall 2024 Machine Learning course
+## Week 12 (11/5, 11/7)
+1. Solve this age prediction problem at Kaggle following our class topics (e.g., PCA and Regression) [week-12-task.pdf](week-12/week-12-task.pdf)
+
 ## Week 10 (10/22, 10/24)
 1. Let's read data samples from `week-10/datasets/Clustering-Datasets-master/02. Synthetic/3MC.csv`. There are 400 two-dimensional (i.e., the dimension being `x` and `y`) samples in the csv.
 2. Split the datset into training and test (80%/20% split)
