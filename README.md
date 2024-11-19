@@ -5,7 +5,8 @@
    - Hidden layer 1 dimension: 20
    - Hidden layer 2 dimension: 10
    - Output layer dimension: 7
-  Be sure to use RELU as activation function in the hidden layer, and softmax in the output layer to interpret properly one of the 7 classes present. Also, you may want to split the dataset into training and test, and report test evaluation performance (e.g., micro+macro avg accuracy, precision, recall and F1).
+
+( Be sure to use RELU as activation function in the hidden layer, and softmax in the output layer to interpret properly one of the 7 classes present. Also, you may want to split the dataset into training and test, and report test evaluation performance (e.g., micro+macro avg accuracy, precision, recall and F1). )
 
 ## Week 13 ()
 
