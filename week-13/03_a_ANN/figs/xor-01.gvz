@@ -1,0 +1,60 @@
+//XOR graph 01
+digraph G{
+	rankdir=LR;
+	splines=false; //edges are drawn as line segments, no curves please
+	edge[style=invis]; //no idea why; but will figure it out later
+	ranksep=1.5;
+
+	//Definition of nodes
+	{ 	
+		//The bias group
+		node[shape=circle,color=yellow,style=filled,fillcolor=yellow];
+		a0 [label=1];
+		//b0 [label=1];
+	}
+
+	{
+		//Input layer
+		node[shape=circle,color=chartreuse, style=filled,filledcolor=chartreuse];
+		x1 [label=<x<sub>1</sub>>];
+		x2 [label=<x<sub>2</sub>>];
+	}
+
+	{
+		//Ouput layer
+		node[shape=circle,color=coral1,style=filled,fillcolor=coral1];
+		y [label=y];
+	}
+
+	{
+		node[shape=box]
+		Z [label=<Z output>];
+	}
+
+	{
+		rank=same;
+		a0->x1->x2;
+	}
+	
+	//Prevent tilting
+	//a0->b1;
+	l0 [shape=plaintext, label="Layer 1 (input layer)"];
+	l0->a0;
+	{rank=same; l0; a0};
+
+	l2 [shape=plaintext, label="Layer 2 (output layer)"];
+	l2->y;
+	{rank=same; l2; y};
+
+	//Now, the real edges!!!
+	edge[style=solid, tailport=e, headport=w];
+	//{a0; a1; a2} -> {b1; b2};
+	//{b0; b1; b2} -> {c1};
+	a0->y[label="w0"];
+	x1->y[label=w1];
+	x2->y[label=w2];
+
+	y->Z;
+	
+
+}

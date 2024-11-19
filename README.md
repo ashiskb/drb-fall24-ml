@@ -1,4 +1,14 @@
 # Workspace for Fall 2024 Machine Learning course
+## Week 14 (11/19, 11/21)
+1. For the dataset: `week-02/datasets/classification-task/F.xlsx` (Sheet: Sheet 2), train a feedforward neural network based classifier having the following configuration:
+   - Input dimension: 34
+   - Hidden layer 1 dimension: 20
+   - Hidden layer 2 dimension: 10
+   - Output layer dimension: 7
+  Be sure to use RELU as activation function in the hidden layer, and softmax in the output layer to interpret properly one of the 7 classes present. Also, you may want to split the dataset into training and test, and report test evaluation performance (e.g., micro+macro avg accuracy, precision, recall and F1).
+
+## Week 13 ()
+
 ## Week 12 (11/5, 11/7)
 1. Solve this age prediction problem at Kaggle following our class topics (e.g., PCA and Regression) [week-12-task.pdf](week-12/week-12-task.pdf)
 
